@@ -1,0 +1,29 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    font-size: 100px;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.navbar li {
+    display: inline;
+    padding: 70px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.content section {
+    text-align: center;
+}
+
+.content ul {
+    list-style: none;
+}
