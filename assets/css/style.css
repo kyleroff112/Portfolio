@@ -120,3 +120,7 @@ footer li {
     .portfolio {
       display: inline-block;
     }}
+
+a {
+    appearance: none;
+}
