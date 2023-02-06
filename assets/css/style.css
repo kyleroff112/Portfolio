@@ -24,5 +24,13 @@
 }
 
 #deployedProjects{
+    padding: 30px;
+}
+
+footer {
+    border-top: 3px solid hsl(0, 0%, 0%);
+    max-width: 70%;
+    margin: auto;
+    width: 70%;
     padding: 10px;
 }
