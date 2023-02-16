@@ -1,72 +1,127 @@
-<html lang="en">    
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Kyle Roff</title>
 </head>
 
 <body>
 
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                Kyle Roff
+            </a>
     
-<div class="container" id="title"><h1 class="text-center">Kyle Roff</h1>
-</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-4"><p class="text-center">Portfolio</p></div>
-        <div class="col-sm-4"><p class="text-center">About Me</p></div>
-        <div class="col-sm-4"><p class="text-center">Contact</p></div>
-    </div>
-</div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
     <div>
-        <div class="container"><h3 class="text-center">About Me</h3>
+        <div class="container">
+            <h3 class="text-center">About Me</h3>
             <div class="row">
                 <div id="kyle" class="col-sm-4">
                     <img src="./assets/images/Kyle Roff.jpg" alt="Kyle Roff" class="img-fluid">
                 </div>
                 <div class="col-sm-8">
-                    
-                    <p>I am an owner and operator of Roff Roofing & Renovations, LLC. We have been in business for 7 years as an LLC and have already made it very clear that we are different from our competition. In those 7 years we have rose to be one of the top roofing contractors in the state of New Jersey. I do not mean this in a subjective way; we are actually listed as one of the highest rated roofers in a 100 mile radius from our zip code.</p>
+
+                    <p>I am an owner and operator of Roff Roofing & Renovations, LLC. We have been in business for 7
+                        years as an LLC and have already made it very clear that we are different from our competition.
+                        In those 7 years we have rose to be one of the top roofing contractors in the state of New
+                        Jersey. I do not mean this in a subjective way; we are actually listed as one of the highest
+                        rated roofers in a 100 mile radius from our zip code.</p>
                     <a href="https://www.atlasroofing.com/find-a-contractor">Here is the source for that statement.</a>
                     <p>Use zip code 07840.</p>
-                    <p>My accolades include years of proven experience in fields like team management and training as well as asset management and resource allocation. I have only left positive impacts on every business I have worked with through the years, which includes dozens of construction companies who were in need of guidance in an ever-changing world dominated by technology.</p>
+                    <p>My accolades include years of proven experience in fields like team management and training as
+                        well as asset management and resource allocation. I have only left positive impacts on every
+                        business I have worked with through the years, which includes dozens of construction companies
+                        who were in need of guidance in an ever-changing world dominated by technology.</p>
                     <!-- <p>I have had many people over the years question my knowledge and experience because of my age but I have always used this as my counter-argument: My experience at my age is, in fact, my strength and not my weakness. When you combine my time in the industry with the impacts that I have made it can only mean one thing. I am the real McCoy. Some people take a lifetime to make the sort of impacts I have made and I do not take that for granted. However, I am also accutely aware that as big as my head may be, I still have plenty to learn and grow from and I am fully prepared to face these challenges every single day. For it is these very challenges, whether expected or not, that have made me who I am. And that is what has led me down the road of web development in the first place.</p> -->
                 </div>
             </div>
         </div>
     </div>
     <div class="aboutMeBorder"></div>
-    <div>
-        <div class="container" id="deployedProjects"><h2 class="text-center">Deployed Projects</h2>
-            <div class="row">
-                <div class="col-sm-6"><a><p class="text-center">Password Generator</p></a>
-                </div>
-                <div class="col-sm-6"><a href="https://www.roffroofing.com/?gclid=CjwKCAiA_vKeBhAdEiwAFb_nrYYRVGWgmNQ6a0Qog-nTDSVSWoTYGhRW-6-Txp70SIy6EQiAJYj4ohoCoScQAvD_BwE"><p class="text-center">Roff Roofing & Renovations, LLC</p></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6"><a><p class="text-center">Quiz Game</p></a>
-                </div>
-                <div class="col-sm-6"><a href="https://seanlthecoder.github.io/projectAvengers/"><p class="text-center">Horror Movie Depot</p></a>
-                </div>
-            </div>
+    <div class="row text-center">
+        <div class="col-sm-12">
+            <h2 class="text-center" id="portfolio">Portfolio</h2>
         </div>
+        <div class="dropdown col-sm-4">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="soloProjectsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-image: url('path/to/image');">
+              Solo Projects
+            </button>
+            <div class="dropdown-menu" aria-labelledby="soloProjectsDropdown">
+              <a class="dropdown-item" href="#">Quiz Game</a>
+              <a class="dropdown-item" href="#">Weather Watcher</a>
+              <a class="dropdown-item" href="#">Work Day Calendar</a>
+            </div>
+          </div>
+          
+          <div class="dropdown col-sm-4">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="collaborativeProjectsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-image: url('path/to/image');">
+              Collaborative Projects
+            </button>
+            <div class="dropdown-menu" aria-labelledby="collaborativeProjectsDropdown">
+              <a class="dropdown-item" href="https://seanlthecoder.github.io/projectAvengers/">Horror Movie Depot</a>
+              <a class="dropdown-item" href="#">Property Manager</a>
+            </div>
+          </div>
+          
+          <div class="dropdown col-sm-4">
+            <button class="btn btn-primary" type="button" id="roffRoofing" style="background-image: url('path/to/image');">
+              Roff Roofing & Renovations LLC
+            </button>
+          </div>
+
     </div>
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-4"><p class="text-center">kyleroff112@gmail.com</p></div>
-                <div class="col-sm-4"><p class="text-center">908-328-3758</p></div>
-                <div class="col-sm-4"><p class="text-center">Contact</p></div>
+                <div class="col-sm-4">
+                    <p class="text-center">kyleroff112@gmail.com</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center">908-328-3758</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center">twitter: @kyleroff112</p>
+                </div>
             </div>
         </div>
     </footer>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
 </html>
